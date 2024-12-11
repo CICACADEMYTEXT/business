@@ -1,0 +1,85 @@
+/* ベース設定 */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* ヘッダー */
+.main-header {
+  background-color: #1a1a1a;
+  color: #ffd700; /* ゴールド */
+  text-align: center;
+  padding: 2rem;
+}
+.main-header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+.main-header p {
+  font-size: 1.2rem;
+}
+
+/* セクション共通 */
+section {
+  padding: 2rem;
+  margin: 2rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+section h2 {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+.section-image, .graph-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* グラフセクション */
+#graph img {
+  margin: 1rem auto;
+  display: block;
+  border: 2px solid #ffd700;
+}
+
+/* 料金案内 */
+#pricing p {
+  font-size: 1.2rem;
+}
+#pricing strong {
+  color: #ffd700;
+  font-size: 1.5rem;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #1a1a1a;
+  color: white;
+  margin-top: 2rem;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+  section {
+      margin: 1rem;
+      padding: 1rem;
+  }
+  .main-header h1 {
+      font-size: 2rem;
+  }
+}
